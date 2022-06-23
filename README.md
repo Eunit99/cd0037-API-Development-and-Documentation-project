@@ -111,11 +111,13 @@ tests are located in the backend directory in test_flaskr.py file, to run tests:
   ```
   createdb trivia_test
   ```
+
 - populate the database with sample data
 
   ```
   psql trivia_test < trivia.psql
   ```
+  
 - then run the script with python
 
   ```
